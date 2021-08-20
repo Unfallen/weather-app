@@ -18,12 +18,14 @@ For the design, I made it simple to provide the most efficient way to achieve th
 ## Installation instructions
 
 - `composer install`
+- `cp .env.example .env`
 - `php artisan key:generate`
 - `php artisan serve`
 
 ---
 **NOTE**
-You can access this without running npm but if you want to change/update the code please run `npm install` and `npm run dev` or `npm run watch`
+
+You can access this without running npm but if you want to change/update the code please run `npm install` and then `npm run dev` or `npm run watch`
 
 ---
 
