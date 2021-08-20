@@ -1,0 +1,5 @@
+export default {
+  FORECASTS: 'FORECASTS',
+  FORECAST: 'FORECAST',
+  CITY: 'CITY'
+}
