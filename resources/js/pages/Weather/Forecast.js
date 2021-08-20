@@ -1,8 +1,6 @@
 import React, {useState} from 'react';
 import Weather from "./components/Weather";
-import {
-  Radio,
-} from '../../../styles/app.css';
+import { Radio } from '../../../styles/app.css';
 import CityDropdown from "./components/CityDropdown";
 import {useWeatherState} from "./weather-state";
 
@@ -11,9 +9,6 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const Forecast = () => {
   let [unit, setUnit] = useState('imperial');
-  let [responseObj, setResponseObj] = useState({});
-  let [error, setError] = useState(false);
-  let [loading, setLoading] = useState(false);
 
   const [
     {forecasts, city},
@@ -108,7 +103,6 @@ const Forecast = () => {
         </div>
       </div>
     </div>
-
   );
 }
 
